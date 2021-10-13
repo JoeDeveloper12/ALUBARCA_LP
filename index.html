@@ -10,14 +10,71 @@
 </head>
 <body>
     
-    <div class="navbar navbar-light bg-light">
-        <h1 class="navbar-brand">ALUBARCA</h1>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <h1 class="fw-bold">ALUBARCA</h1>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#theList">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="theList">
+                <div class="navbar-nav">
+                    <a href="#main" class="nav-link">Principal</a>
+                    <a href="#us" class="nav-link">Nosotros</a>
+                    <a href="#products" class="nav-link">Productos</a>
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <main class="container">
+        <div class="row" id="main">
+            <div class="col-md-6 text-center">
+                <img src="./assets/trunks-dragon-ball-z-wallpapers.jpg" alt="Principal">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h1></h1>
+                <p></p>
+            </div>
+        </div>
+        <div class="row flex-row-reverse" id="us">
+            <div class="col-md-6 text-center">
+                <img src="./assets/1080p-wallpaper-4k-trunks.jpg" alt="Nosotros">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h1 class="font-weight-bold">Sobre nosotros</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="row" id="products">
+            <div class="col-md-6 text-center">
+                <img src="./assets/TrunksVegeta.jpg" alt="Productos">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h1 class="font-weight-bold">Nuestros productos</h1>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+        <div class="row" id="contact">
+            <div class="col-md-6 text-center">
+                <img src="./assets/1080p-wallpaper-4k-trunks.jpg" alt="Contactanos">
+            </div>
+            <div class="col-md-6 text-center my-auto">
+                <h1 class="font-weight-bold">Contactanos</h1>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </main>
     
     <footer class="bg-light"> 
         <div class="container">
-            <div class="row">
-
+            <div class="row text-center py-3">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 font-weight-light">
+                    <div>Politica de privacidad</div>
+                    <div>Contactanos</div>
+                    <div>&copy 2021</div>
+                </div>
             </div>
         </div>
     </footer>
